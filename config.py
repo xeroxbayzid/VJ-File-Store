@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "28574839"))
 API_HASH = environ.get("API_HASH", "a844a3066fb7e5f61f049dee592ae024")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://i.imageflix.cam/images/2024/10/18/c7185fca3664e30d66005f9218bbbd0f.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7440277737').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "BayzidStreamRobot") # without @
 PORT = environ.get("PORT", "8080")
