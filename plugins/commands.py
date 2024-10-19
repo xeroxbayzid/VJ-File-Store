@@ -54,10 +54,10 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('💝 ᴏғғɪᴄɪᴀʟ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ 💝', url='https://youtube.com/@bayzidxeditz?si=mvt6KZjkrf1gJRkA')
+            InlineKeyboardButton('💝 ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ 💝', url='https://youtube.com/@bayzidxeditz?si=mvt6KZjkrf1gJRkA')
             ],[
-            InlineKeyboardButton('🎉 ᴏғғɪᴄɪᴀʟ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 🎉', url='https://t.me/BayzidEditzCommunity'),
-            InlineKeyboardButton('💫 ᴏғғɪᴄɪᴀʟ ᴛᴇʟᴇɢʀᴀᴍ ᴄʜᴀɴɴᴇʟ 💫', url='https://t.me/BayzidEditz')
+            InlineKeyboardButton('🎉 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 🎉', url='https://t.me/BayzidEditzCommunity'),
+            InlineKeyboardButton('💫 ᴛᴇʟᴇɢʀᴀᴍ ᴄʜᴀɴɴᴇʟ 💫', url='https://t.me/BayzidEditz')
             ],[
             InlineKeyboardButton('📝 ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅ 📝', callback_data='help'),
             InlineKeyboardButton('☺️ ᴀʙᴏᴜᴛ ᴍᴇ ☺️', callback_data='about')
@@ -420,10 +420,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('💝 ᴏғғɪᴄɪᴀʟ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ 💝', url='https://youtube.com/@bayzidxeditz?si=mvt6KZjkrf1gJRkA')
+            InlineKeyboardButton('💝 ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ 💝', url='https://youtube.com/@bayzidxeditz?si=mvt6KZjkrf1gJRkA')
             ],[
-            InlineKeyboardButton('🎉 ᴏғғɪᴄɪᴀʟ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 🎉', url='https://t.me/BayzidEditzCommunity'),
-            InlineKeyboardButton('💫 ᴏғғɪᴄɪᴀʟ ᴛᴇʟᴇɢʀᴀᴍ ᴄʜᴀɴɴᴇʟ 💫', url='https://t.me/BayzidEditz')
+            InlineKeyboardButton('🎉 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 🎉', url='https://t.me/BayzidEditzCommunity'),
+            InlineKeyboardButton('💫 ᴛᴇʟᴇɢʀᴀᴍ ᴄʜᴀɴɴᴇʟ 💫', url='https://t.me/BayzidEditz')
             ],[
             InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ 🤖', callback_data='clone')
             ],[
