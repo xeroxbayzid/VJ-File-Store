@@ -4,30 +4,24 @@
 
 
 class script(object):
-    START_TXT = """<b><u>🫡 Assalamu Alaikum -!!💝💫</u></b>
+    START_TXT = """<b>🤖 Hello - I'm Latest Advanced & Powerful File Store Bot-!!🔥</b>
 
-<b><u>🤖 I'm Latest Advanced & Powerful File Store Bot-!!🔥</u></b>
-
-<b><u>📝 Features :</u></b>
+<b><u>📝 Bot Features :</u></b>
 <b>⦿ Clone Feature</b>
 <b>⦿ Stream / Download Link</b>
 <b>⦿ Custom Url Shortner</b>
 <b>⦿ Photo Delete Support</b>
 <b>⦿ Best Ui Performance</b>
-<b>⦿ Permanent Link</b>
-
-<b><u>🤖 How To Use Me :</u></b> <b>You Can Send Any Telegram Document & The Bot Will Generate a Link, Just Open The Link & Click On Start Button The Bot Will Provide Your Document…! 📃</b>"""
+<b>⦿ Permanent Link</b>"""
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
     
-    CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : {file_name}
+    CAPTION = """<b>🤖 Name : {file_name}</b>
 
-sɪᴢᴇ ⚙️: {file_size}
-
-Jᴏɪɴ [ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ](https://t.me/vj_botz)</b>""" 
+<b>🔥 Size : {file_size}</b>""" 
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
@@ -47,7 +41,15 @@ If You Want To Remove Api Then Copy This And Send To Bot - `/api None`"""
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
-    CLONE_START_TXT = """<b><u>🫡 Assalamu Alaikum {}-!!💝💫</u></b><b><u>🤖 I'm Latest Advanced & Powerful File Store Bot-!!🔥</u></b><b><u>📝 Features :</u></b><b>⦿ Clone Feature</b><b>⦿ Stream / Download Link</b><b>⦿ Custom Url Shortner</b><b>⦿ Photo Delete Support</b><b>⦿ Best Ui Performance</b><b>⦿ Permanent Link</b><b><u>🤖 How To Use Me :</u></b> <b>You Can Send Any Telegram Document & The Bot Will Generate a Link, Just Open The Link & Click On Start Button The Bot Will Provide Your Document…! 📃</b>"""
+    CLONE_START_TXT = """<b>🤖 Hello - I'm Latest Advanced & Powerful File Store Bot-!!🔥</b>
+
+<b><u>📝 Bot Features :</u></b>
+<b>⦿ Clone Feature</b>
+<b>⦿ Stream / Download Link</b>
+<b>⦿ Custom Url Shortner</b>
+<b>⦿ Photo Delete Support</b>
+<b>⦿ Best Ui Performance</b>
+<b>⦿ Permanent Link</b>"""
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
