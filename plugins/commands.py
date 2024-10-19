@@ -203,7 +203,11 @@ async def start(client, message):
             await asyncio.sleep(1) 
         await sts.delete()
         if AUTO_DELETE_MODE == True:
-            k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>{AUTO_DELETE} minutes</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there</b>")
+            k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>⚡ Important Notice-!! 🤖</u></b>
+
+<b>🎉 This File/Video Will Be Deleted In {AUTO_DELETE} Minutes 🫥 <i>(Due To Copyright Issues)</i>. 😭</b>
+
+<b>⚙️ Please Forward This File/Video To Your Saved Messages & Start Download There-!!</b>")
             await asyncio.sleep(AUTO_DELETE_TIME)
             for x in filesarr:
                 try:
@@ -264,7 +268,11 @@ async def start(client, message):
                     )
                 )
             if AUTO_DELETE_MODE == True:
-                k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>{AUTO_DELETE} minutes</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there</b>")
+                k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>⚡ Important Notice-!! 🤖</u></b>
+
+<b>🎉 This File/Video Will Be Deleted In {AUTO_DELETE} Minutes 🫥 <i>(Due To Copyright Issues)</i>. 😭</b>
+
+<b>⚙️ Please Forward This File/Video To Your Saved Messages & Start Download There-!!</b>")
                 await asyncio.sleep(AUTO_DELETE_TIME)
                 try:
                     await msg.delete()
@@ -325,7 +333,11 @@ async def start(client, message):
             )
         )
     if AUTO_DELETE_MODE == True:
-        k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>{AUTO_DELETE} minutes</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there</b>")
+        k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>⚡ Important Notice-!! 🤖</u></b>
+
+<b>🎉 This File/Video Will Be Deleted In {AUTO_DELETE} Minutes 🫥 <i>(Due To Copyright Issues)</i>. 😭</b>
+
+<b>⚙️ Please Forward This File/Video To Your Saved Messages & Start Download There-!!</b>")
         await asyncio.sleep(AUTO_DELETE_TIME)
         try:
             await x.delete()
