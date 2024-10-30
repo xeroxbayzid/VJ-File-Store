@@ -11,11 +11,8 @@ class script(object):
 # Ask Doubt on telegram @KingVJ01
 
     
-    CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : {file_name}
-
-sɪᴢᴇ ⚙️: {file_size}
-
-Jᴏɪɴ [ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ](https://t.me/vj_botz)</b>""" 
+    CAPTION = """<blockquote><b>• File Name : {file_name}\n\n• Size : {file_size}\n\n• Telegram : </b><a href='https://t.me/+qc_PzIzLHG44YzQ1'><b>Join Now</b></a>
+<b>\n\• Devloped By : </b><b>@xerox_bayzid</b></blockquote>""" 
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
