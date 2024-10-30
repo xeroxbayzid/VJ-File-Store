@@ -50,7 +50,7 @@ async def incoming_gen_link(bot, message):
         short_link = await get_short_link(user, share_link)
         await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n🖇️ sʜᴏʀᴛ ʟɪɴᴋ :- {short_link}</b>")
     else:
-        await message.reply(f"<b>🤖 Your File Uploaded Successfully-!!🥳</b>\n\n<b>🍡Your Link :</b> <code>{share_link}</code>")
+        await message.reply(f"<blockquote><b>• File Upload : Success ✅\n• Total File : 1\n• Expiry Time : None\n• Devloped By : @xerox_bayzid</b>\n\n</blockquote>\n\n<blockquote><b>• Normal Link : {share_link}</b></blockquote>\n\n<blockquote><b>• Mono Link :</b> <code>{share_link}</code></blockquote>")
         
 
 @Client.on_message(filters.command(['link', 'plink']) & filters.create(allowed))
@@ -83,7 +83,7 @@ async def gen_link_s(bot, message):
         short_link = await get_short_link(user, share_link)
         await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n🖇️ sʜᴏʀᴛ ʟɪɴᴋ :- {short_link}</b>")
     else:
-        await message.reply(f"<b>🤖 Your File Uploaded Successfully-!!🥳</b>\n\n<b>🍡Your Link :</b> <code>{share_link}</code>")
+        await message.reply(f"<blockquote><b>• File Upload : Success ✅\n• Total File : 1\n• Expiry Time : None\n• Devloped By : @xerox_bayzid</b>\n\n</blockquote>\n\n<blockquote><b>• Normal Link : {share_link}</b></blockquote>\n\n<blockquote><b>• Mono Link :</b> <code>{share_link}</code></blockquote>")
         
 
 # Don't Remove Credit Tg - @VJ_Botz
@@ -198,7 +198,7 @@ async def gen_link_batch(bot, message):
         short_link = await get_short_link(user, share_link)
         await sts.edit(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\nContains `{og_msg}` files.\n\n🖇️ sʜᴏʀᴛ ʟɪɴᴋ :- {short_link}</b>")
     else:
-        await sts.edit(f"<b>🤖 Your File Uploaded Successfully-!!🥳</b>\n\nContains `{og_msg}` files.\n\n<b>🍡Your Link :</b> <code>{share_link}</code>")
+        await sts.edit(f"<blockquote><b>• File Upload : Success ✅\n• Total File : `{og_msg}`\n• Expiry Time : None\n• Devloped By : @xerox_bayzid</b>\n\n</blockquote>\n\n<blockquote><b>• Normal Link : {share_link}</b></blockquote>\n\n<blockquote><b>• Mono Link :</b> <code>{share_link}</code></blockquote>")
         
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
