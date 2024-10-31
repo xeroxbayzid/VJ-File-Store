@@ -4,7 +4,7 @@
 
 
 class script(object):
-    START_TXT = """<blockquote><b>Hello - I'm a Permanent FileStore Bot-!!🤖</b></blockquote>\n\n<blockquote><b>Send Me Any Files/Documents. I Will Store It In My Database Channel &amp; Give Your Shareble Link To Access That Files/Documents...🪴</b></blockquote>\n\n<blockquote><b>Note : Sending Pornographic/illegal Contents To Bot May Leads To Permanent Ban &amp; File Link Will Be Revoked...🌴</b></blockquote>"""
+    START_TXT = """<blockquote><b>Hello - I'm a Permanent FileStore Bot-!!🤖</b></blockquote>\n<blockquote><b>Send Me Any Files/Documents. I Will Store It In My Database Channel &amp; Give Your Shareble Link To Access That Files/Documents...🪴</b></blockquote>\n<blockquote><b>Note : Sending Pornographic/illegal Contents To Bot May Leads To Permanent Ban &amp; File Link Will Be Revoked...🌴</b></blockquote>"""
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
@@ -31,7 +31,7 @@ If You Want To Remove Api Then Copy This And Send To Bot - `/api None`"""
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
-    CLONE_START_TXT = """<blockquote><b>Hello - I'm a Permanent FileStore Bot-!!🤖</b></blockquote>\n\n<blockquote><b>Send Me Any Files/Documents. I Will Store It In My Database Channel &amp; Give Your Shareble Link To Access That Files/Documents...🪴</b></blockquote>\n\n<blockquote><b>Note : Sending Pornographic/illegal Contents To Bot May Leads To Permanent Ban &amp; File Link Will Be Revoked...🌴</b></blockquote>"""
+    CLONE_START_TXT = """<blockquote><b>Hello - I'm a Permanent FileStore Bot-!!🤖</b></blockquote>\n<blockquote><b>Send Me Any Files/Documents. I Will Store It In My Database Channel &amp; Give Your Shareble Link To Access That Files/Documents...🪴</b></blockquote>\n<blockquote><b>Note : Sending Pornographic/illegal Contents To Bot May Leads To Permanent Ban &amp; File Link Will Be Revoked...🌴</b></blockquote>"""
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
