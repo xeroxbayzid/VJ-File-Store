@@ -57,7 +57,7 @@ async def start(client, message):
             InlineKeyboardButton('• ᴏᴡɴᴇʀ ᴀᴄᴄ', url='https://www.facebook.com/TradeWithBayzid'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ ᴍᴇ •', callback_data='about')
         ],[
-            InlineKeyboardButton('• ᴊᴏɪɴ ᴛᴇʟᴇɢʀᴀᴍ •', url='https://youtube.com/@Tech_VJ')
+            InlineKeyboardButton('• ᴊᴏɪɴ ᴛᴇʟᴇɢʀᴀᴍ •', url='https://t.me/+qc_PzIzLHG44YzQ1')
         ]]
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
@@ -116,7 +116,7 @@ async def start(client, message):
                 return
         except Exception as e:
             return await message.reply_text(f"**Error - {e}**")
-        sts = await message.reply("**<b> - Please Wait-!!😩💝</b>**")
+        sts = await message.reply("**<b> - ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ-!!😩💝</b>**")
         file_id = data.split("-", 1)[1]
         msgs = BATCH_FILES.get(file_id)
         if not msgs:
@@ -383,8 +383,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.delete()
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('🔒 Cʟᴏsᴇ', callback_data='close_data')
+            InlineKeyboardButton('• ʜᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('ᴄʟᴏsᴇ •', callback_data='close_data')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -405,10 +405,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('💝 sᴜʙsᴄʀɪʙᴇ ᴍʏ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ', url='https://youtube.com/@Tech_VJ')
-            ],[
-            InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('• ᴏᴡɴᴇʀ ᴀᴄᴄ', url='https://www.facebook.com/TradeWithBayzid'),
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ ᴍᴇ •', callback_data='about')
+        ],[
+            InlineKeyboardButton('• ᴊᴏɪɴ ᴛᴇʟᴇɢʀᴀᴍ •', url='https://t.me/+qc_PzIzLHG44YzQ1')
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -430,8 +430,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "clone":
         buttons = [[
-            InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('🔒 Cʟᴏsᴇ', callback_data='close_data')
+            InlineKeyboardButton('• ʜᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('ᴄʟᴏsᴇ •', callback_data='close_data')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -451,8 +451,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('🔒 Cʟᴏsᴇ', callback_data='close_data')
+            InlineKeyboardButton('• ʜᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('ᴄʟᴏsᴇ •', callback_data='close_data')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
