@@ -53,12 +53,9 @@ async def start(client, message):
         await db.add_user(message.from_user.id, message.from_user.first_name)
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
-        buttons = [[
-            InlineKeyboardButton('• ᴏᴡɴᴇʀ ᴀᴄᴄ', url='https://www.facebook.com/TradeWithBayzid'),
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ ᴍᴇ •', callback_data='about')
-        ],[
+        buttons = [
             InlineKeyboardButton('• ᴊᴏɪɴ ᴛᴇʟᴇɢʀᴀᴍ •', url='https://t.me/+qc_PzIzLHG44YzQ1')
-        ]]
+        ]
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
         reply_markup = InlineKeyboardMarkup(buttons)
